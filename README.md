@@ -7,7 +7,7 @@ Predicting building damage grades (1 = low, 2 = medium, 3 = high) resulting from
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 1. [Competition Overview](#competition-overview)  
 2. [Data Description](#data-description)  
 3. [Workflow Summary](#workflow-summary)  
@@ -18,7 +18,7 @@ Predicting building damage grades (1 = low, 2 = medium, 3 = high) resulting from
 
 ---
 
-## 🏆 Competition Overview
+## Competition Overview
 - **Title:** Richter’s Predictor: Modeling Earthquake Damage  
 - **Host:** DrivenData  
 - **Participants:** 8,129 (as of April 2025)  
@@ -28,7 +28,7 @@ Predicting building damage grades (1 = low, 2 = medium, 3 = high) resulting from
 
 ---
 
-## 📊 Data Description
+##  Data Description
 - **Train Features:** `data/train_values.csv` — building attributes + geographic IDs  
 - **Train Labels:** `data/train_labels.csv` — damage grade (1 / 2 / 3)  
 - **Test Features:** `data/test_values.csv` — unlabeled for submission  
@@ -51,14 +51,11 @@ Predicting building damage grades (1 = low, 2 = medium, 3 = high) resulting from
    - **Baseline Models:** SVM, LightGBM, Decision Tree, Logistic Regression, RandomForest, AdaBoost  
    - **Deep Learning:** ANN, DNN, CNN (tabular), LSTM, Stacking Ensemble  
    - **Hyperparameter Tuning:** Randomized/Grid Search  
-4. **Advanced Analysis** (Optional)  
-   - **Clustering:** Building typologies  
-   - **Anomaly Detection:** Outlier identification  
-   - **Scenario Simulation:** Stress-test quake intensities  
+
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 ```plaintext
 ├── data/                    # Raw & processed data
 ├── notebooks/               # Jupyter notebooks by stage
@@ -66,8 +63,7 @@ Predicting building damage grades (1 = low, 2 = medium, 3 = high) resulting from
 │   ├── 02_feature_engineering.ipynb
 │   ├── 03_baseline_models.ipynb
 │   ├── 04_hyperparameter_tuning.ipynb
-│   ├── 05_clustering.ipynb      (optional)
-│   └── 06_simulation.ipynb      (optional)
+│
 ├── scripts/                 # Python scripts (preprocess.py, etc.)
 ├── models/                  # Saved model artifacts (.pkl, .h5)
 ├── submissions/             # Sample submission files
