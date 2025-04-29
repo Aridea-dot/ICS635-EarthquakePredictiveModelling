@@ -3,7 +3,7 @@
 [![DrivenData Competition](https://img.shields.io/badge/DrivenData-Nepal%20Earthquake-blue)](https://www.drivendata.org/competitions/57/nepal-earthquake/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
 
-Predicting building damage grades (1 = low, 2 = medium, 3 = high) resulting from the 2015 Gorkha earthquake in Nepal. This repository includes data processing, model training, interpretability, and advanced analyses.
+Predicting building damage grades (1 = low, 2 = medium, 3 = high) resulting from the 2015 Gorkha earthquake in Nepal. This repository includes data processing, model training, and hypertuning.
 
 ---
 
