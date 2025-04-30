@@ -43,10 +43,10 @@ Predicting building damage grades (1 = low, 2 = medium, 3 = high) resulting from
    - Encode categorical variables (e.g., wall type, roof type)  
 2. **Feature Engineering**  
    - Create four engineered features:  
-     - **Area × Floors**  
-     - **Height ÷ Families**  
-     - **Distance to District Centroid**  
-     - **Soil Softness Proxy** (elevation & slope)  
+     - **Geolevel aggreegrate feature**  
+     - **Multiplicative interactive features**  
+     - **Binned categorical features**  
+     - **Handling of rare categories** (elevation & slope)  
 3. **Modeling**  
    - **Baseline Models:** SVM, LightGBM, Decision Tree, Logistic Regression, RandomForest, AdaBoost  
    - **Deep Learning:** ANN, DNN, CNN (tabular), LSTM, Stacking Ensemble  
